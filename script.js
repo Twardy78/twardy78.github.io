@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://d47f0af3-604f-45e8-be3d-3bf318744640-00-3dzvsj1hsyzny.picard.replit.dev/v1/tasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello';
+  const trelloApiRoot = 'https://d47f0af3-604f-45e8-be3d-3bf318744640-00-3dzvsj1hsyzny.picard.replit.dev/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
